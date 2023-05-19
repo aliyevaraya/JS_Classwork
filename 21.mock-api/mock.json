@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "username": "Emin",
+      "email": "qasimov@gmail.com",
+      "id": 8
+    },
+    {
+      "username": "Sebine",
+      "email": "qasimova@gmail.com",
+      "id": 15
+    },
+    {
+      "username": "Esmira",
+      "email": "huseynli@gmail.com",
+      "id": 16
+    },
+    {
+      "username": "Eli",
+      "email": "Eliyev@gmail.com",
+      "id": 17
+    },
+    {
+      "username": "Leman",
+      "email": "leman@gmail.com",
+      "id": 18
+    }
+  ]
+}

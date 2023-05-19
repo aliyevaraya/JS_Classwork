@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "firstName": "Bruno",
+      "lastName": "Morrow",
+      "email": "mutijijivy@mailinator.com",
+      "card": "Pa$$w0rd!",
+      "date": "5/12/2023",
+      "id": 9
+    },
+    {
+      "firstName": "Carson",
+      "lastName": "Weber",
+      "email": "tinarajumy@mailinator.com",
+      "card": "Pa$$w0rd!",
+      "date": "5/12/2023",
+      "id": 10
+    },
+    {
+      "firstName": "Colt",
+      "lastName": "Huber",
+      "email": "vytoquny@mailinator.com",
+      "card": "Pa$$w0rd!",
+      "date": "5/12/2023",
+      "id": 12
+    },
+    {
+      "firstName": "Miriam",
+      "lastName": "Sellers",
+      "email": "hokoh@mailinator.com",
+      "card": "Pa$$w0rd!",
+      "date": "5/12/2023",
+      "id": 13
+    },
+    {
+      "firstName": "Caryn",
+      "lastName": "Holcomb",
+      "email": "woloziruh@mailinator.com",
+      "card": "376547857",
+      "date": "5/12/2023",
+      "id": 14
+    }
+  ]
+}

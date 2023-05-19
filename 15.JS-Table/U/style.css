@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 900px;
+    outline: none;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid rgb(202, 196, 196);
+}
+table{
+    margin: 3px auto;
+    border-collapse: collapse;
+    width: 900px;
+    text-align: center;
+}
+table th,
+table td{
+    border: 1px solid rgb(186, 185, 185);
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    cursor: pointer;
+}
+
+#dataId .fa-arrow-up,
+#dataName .fa-arrow-down,
+#dataName .fa-arrow-up{
+    display: none;
+}

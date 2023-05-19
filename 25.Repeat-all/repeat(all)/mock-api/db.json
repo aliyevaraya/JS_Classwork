@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "photo": "./images/ego.jpeg",
+      "name": "Ego",
+      "surname": "Anton",
+      "email": "ego@gmailinator.com",
+      "date": "5/16/2023, 7:38:06 PM"
+    },
+    {
+      "id": 2,
+      "photo": "./images/alfredo.jpeg",
+      "name": "Alfredo",
+      "surname": "Linguini",
+      "email": "alfredo@gmailinator.com",
+      "date": "6/14/2023, 4:12:58 PM"
+    },
+    {
+      "id": 4,
+      "photo": "./images/girl.jpeg",
+      "name": "Lacey",
+      "surname": "Horne",
+      "email": "hosolili@mailinator.com",
+      "date": "5/19/2023, 10:42:57 AM"
+    },
+    {
+      "photo": "./images/chef.jpeg",
+      "name": "Hannah",
+      "surname": "Riddle",
+      "email": "nurekuv@mailinator.com",
+      "date": "5/19/2023, 10:44:07 AM",
+      "id": 5
+    }
+  ]
+}

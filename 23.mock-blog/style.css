@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+  }
+  header nav ul {
+    display: flex;
+    column-gap: 20px;
+  }
+
+  header nav h2 {
+    color: brown;
+  }
+  .cards {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   #search {
+    width: 250px;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  .delbtn,
+  .editbtn {
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    color: white;
+    margin-top: 5px;
+    background-color: brown;
+    width: 70px;
+  }
+  .card {
+    border: 1px solid rgb(195, 195, 195);
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 25px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .card h3 {
+    color: navy;
+  }
+  .card p {
+    color: rgb(153, 34, 34);
+    font-weight: bold;
+  }
+  .card .authorname{
+    color: grey;
+  }

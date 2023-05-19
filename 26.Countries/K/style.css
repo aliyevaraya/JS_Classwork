@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+body.dark-mode {
+  background-color: #2b3844;
+  color: #fff;
+}
+body.dark-mode .btn {
+  color: #fff;
+}
+body.dark-mode .cards {
+  background-color: #202c36;
+}
+body header {
+  border-bottom: 1px solid rgb(162, 160, 160);
+}
+body header .header {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .cards #search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .cards #search .search-select {
+  position: relative;
+  margin-top: 50px;
+}
+body .cards #search .search-select i {
+  position: absolute;
+  bottom: 14px;
+  left: 10px;
+}
+body .cards #search .search-select input {
+  width: 300px;
+  padding: 10px 40px;
+  outline: none;
+}
+body .cards #search #regions {
+  margin-top: 50px;
+  padding: 10px;
+  width: 200px;
+}
+@media only screen and (max-width: 576px) {
+  body .cards #search {
+    flex-direction: column;
+  }
+  body .cards #search #regions {
+    width: 58%;
+  }
+}/*# sourceMappingURL=style.css.map */
