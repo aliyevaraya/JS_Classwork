@@ -1,0 +1,46 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  #header {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      ul {
+        display: flex;
+        gap: 25px;
+        li {
+          a {
+            text-transform: uppercase;
+            color: black;
+            &:first-child {
+              color: rgb(0, 136, 255);
+            }
+            &:last-child {
+              color: rgb(0, 136, 255);
+            }
+          }
+        }
+      }
+      .fa-bars {
+        display: none;
+      }
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    #header {
+      nav {
+        ul{
+            display: none;
+        }
+        .fa-bars {
+          display: block;
+        }
+      }
+    }
+  }
+}

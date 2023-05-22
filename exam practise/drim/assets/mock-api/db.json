@@ -1,0 +1,39 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "photo": "./assets/images/st-blog-1.jpg",
+      "title": "Professioanl Website Hosting",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nisi sapiente sint laborum non nesciunt voluptates aliquid id earum rem!",
+      "price": "80 "
+    },
+    {
+      "id": 3,
+      "photo": "./assets/images/st-blog-2.jpg",
+      "title": "Professioanl Website Hosting",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nisi sapiente sint laborum non nesciunt voluptates aliquid id earum rem!",
+      "price": "20 "
+    },
+    {
+      "id": 3,
+      "photo": "./assets/images/st-blog-2.jpg",
+      "title": "Professioanl Website Hosting",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nisi sapiente sint laborum non nesciunt voluptates aliquid id earum rem!",
+      "price": "70 "
+    },
+    {
+      "photo": "./assets/images/ss-icon-5.png",
+      "title": "Aliqua Quod dolorem",
+      "description": "Adipisci tempore mo",
+      "price": "509",
+      "id": 4
+    },
+    {
+      "photo": "./assets/images/ss-icon-7.png",
+      "title": "Corporis sit ad aute",
+      "description": "Laudantium at conse",
+      "price": "823",
+      "id": 5
+    }
+  ]
+}

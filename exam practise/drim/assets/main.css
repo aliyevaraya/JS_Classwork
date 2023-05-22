@@ -1,0 +1,304 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+header #header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+header #header nav ul {
+  display: flex;
+  gap: 25px;
+}
+header #header nav ul li a {
+  text-transform: uppercase;
+  color: black;
+}
+header #header nav ul li a:first-child {
+  color: rgb(0, 136, 255);
+}
+header #header nav ul li a:last-child {
+  color: rgb(0, 136, 255);
+}
+header #header nav .fa-bars {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  header #header nav ul {
+    display: none;
+  }
+  header #header nav .fa-bars {
+    display: block;
+  }
+}
+
+footer .footer {
+  text-align: center;
+  border-top: 1px solid #7f7f85;
+  padding: 20px 0;
+  color: #7f7f85;
+}
+
+.hero-banner {
+  background-image: url(./images/server-banner.jpg);
+  margin-top: 80px;
+}
+.hero-banner #hero-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 30px 0;
+  position: relative;
+  color: white;
+}
+.hero-banner #hero-banner .box {
+  position: absolute;
+  top: 10%;
+  background-color: rgb(252, 100, 40);
+  color: white;
+  padding: 10px 40px;
+  font-size: 34px;
+}
+.hero-banner #hero-banner .hero-contect {
+  margin-top: 150px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero-banner #hero-banner .hero-contect h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.hero-banner #hero-banner .hero-contect h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.hero-banner #hero-banner .hero-contect p {
+  line-height: 28px;
+  font-size: 20px;
+}
+.hero-banner #hero-banner .hero-contect div .fa-regular {
+  padding: 10px;
+}
+.hero-banner #hero-banner .hero-contect button {
+  margin-top: 40px;
+  text-transform: uppercase;
+  width: 150px;
+  padding: 15px 20px;
+  color: white;
+  background-color: rgb(252, 90, 26);
+  border: none;
+  font-size: 14px;
+}
+.hero-banner #hero-banner .hero-img {
+  width: 40%;
+}
+.hero-banner #hero-banner .hero-img img {
+  width: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .hero-banner #hero-banner {
+    flex-direction: column;
+  }
+  .hero-banner #hero-banner .box {
+    top: 5%;
+  }
+  .hero-banner #hero-banner .hero-contect {
+    width: 100%;
+  }
+  .hero-banner #hero-banner .hero-contect h1 {
+    font-size: 40px;
+  }
+  .hero-banner #hero-banner .hero-contect h2 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero-banner #hero-banner {
+    flex-direction: column;
+  }
+  .hero-banner #hero-banner .box {
+    font-size: 20px;
+  }
+  .hero-banner #hero-banner .hero-contect h1 {
+    font-size: 30px;
+  }
+  .hero-banner #hero-banner .hero-contect h2 {
+    font-size: 25px;
+  }
+  .hero-banner #hero-banner .hero-contect p {
+    font-size: 16px;
+  }
+}
+
+.our-service {
+  padding: 60px 0;
+}
+.our-service .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-service .title h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: lighter;
+}
+.our-service .title h1::after {
+  content: "";
+  border: 1px solid;
+  width: 50px;
+  display: block;
+  margin-top: 10px;
+}
+.our-service .title p {
+  text-align: center;
+  width: 40%;
+}
+@media only screen and (max-width: 991px) {
+  .our-service .title p {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .our-service #our-service {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-service #our-service .services {
+    width: 70%;
+  }
+}
+
+#happy-client {
+  background-color: rgb(125, 185, 232);
+  color: white;
+  padding: 60px 0;
+}
+#happy-client .happy-client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#happy-client .happy-client .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#happy-client .happy-client .title h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: lighter;
+}
+#happy-client .happy-client .title h1::after {
+  content: "";
+  border: 1px solid;
+  width: 50px;
+  display: block;
+  margin-top: 10px;
+}
+#happy-client .happy-client .title p {
+  width: 55%;
+  text-align: center;
+}
+#happy-client .happy-client .statics {
+  width: 100%;
+}
+#happy-client .happy-client .statics .static i {
+  font-size: 30px;
+  padding: 10px;
+  border: 5px solid rgb(190, 220, 244);
+  background-color: white;
+  color: rgb(125, 185, 232);
+  border-radius: 50%;
+}
+#happy-client .happy-client .statics .static div {
+  font-size: 18px;
+}
+#happy-client .happy-client .statics .static div span {
+  font-size: 30px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 991px) {
+  #happy-client .happy-client .title p {
+    width: 90%;
+  }
+  #happy-client .happy-client .statics {
+    row-gap: 20px;
+  }
+}
+
+#latest-news .latest-news {
+  padding: 30px 0;
+}
+#latest-news .latest-news .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#latest-news .latest-news .title h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: lighter;
+}
+#latest-news .latest-news .title h1::after {
+  content: "";
+  border: 1px solid;
+  width: 50px;
+  display: block;
+  margin-top: 10px;
+}
+#latest-news .latest-news .title p {
+  width: 55%;
+  text-align: center;
+}
+#latest-news .latest-news .sort {
+  display: flex;
+  justify-content: space-between;
+}
+#latest-news .latest-news .sort input {
+  width: 200px;
+  padding: 8px 15px;
+  border-radius: 8px;
+  outline: none;
+}
+#latest-news .latest-news .news-cards {
+  position: relative;
+}
+#latest-news .latest-news .news-cards .btn {
+  position: absolute;
+  bottom: 2%;
+}
+@media only screen and (max-width: 991px) {
+  #latest-news .latest-news .title p {
+    width: 90%;
+  }
+}/*# sourceMappingURL=main.css.map */
