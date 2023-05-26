@@ -1,0 +1,263 @@
+#hero-banner {
+  .slide {
+    .items {
+      .carousel-caption {
+        top: 35% !important;
+      }
+      .linkbtn {
+        color: white;
+        padding: 15px 20px;
+        &:hover {
+          background-color: rgb(211, 58, 58);
+        }
+      }
+    }
+  }
+}
+
+#aboutbizpro {
+  margin: 60px 0;
+  padding: 30px 0;
+  .about {
+    .title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &::after {
+          content: "";
+          border: 2px solid red;
+          display: block;
+          margin-top: 10px;
+          width: 20px;
+        }
+      }
+      p {
+        width: 70%;
+        text-align: center;
+      }
+    }
+    .search-sort {
+      display: flex;
+      justify-content: space-between;
+
+      #search {
+        padding: 5px 20px;
+        border-radius: 8px;
+      }
+    }
+    .content {
+      padding: 10px;
+      .img-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &:hover {
+          img {
+            background-color: rgb(211, 58, 58);
+          }
+          h4 {
+            color: rgb(211, 58, 58);
+          }
+          .btn:hover {
+            &.favBtn {
+              background-color: yellow;
+            }
+            &.delBtn {
+              background-color: gray;
+            }
+            &.detailBtn {
+              background-color: red;
+            }
+            &.editBtn {
+              background-color: green;
+            }
+          }
+        }
+        img {
+          margin-bottom: 15px;
+          padding: 25px;
+          border: 1px solid red;
+          border-radius: 50%;
+        }
+        p {
+          text-align: center;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+#meetourteam {
+  margin: 60px 0;
+  padding: 30px 0;
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &::after {
+        content: "";
+        border: 2px solid red;
+        display: block;
+        margin-top: 10px;
+        width: 20px;
+      }
+    }
+    p {
+      width: 70%;
+      text-align: center;
+    }
+  }
+  .row {
+    .person {
+      .img-bg {
+        position: relative;
+        overflow: hidden;
+        .bg-opacity {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background-color: rgba(159, 158, 158, 0);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .content {
+            display: none;
+            padding: 10px 5px;
+            text-align: center;
+            color: rgb(101, 100, 100);
+            h2 {
+              border: 1px solid red;
+              display: inline-block;
+              padding: 5px 10px;
+            }
+          }
+        }
+      }
+      .icons {
+        display: none;
+      }
+      &:hover {
+        .bg-opacity {
+          background-color: rgba(201, 197, 197, 0.8);
+          .content {
+            display: block;
+          }
+        }
+        .text {
+          .text-infor {
+            display: none;
+          }
+          .icons {
+            display: block;
+            padding: 8.5px 0;
+            &.hover-icons {
+              display: flex;
+              justify-content: center;
+              gap: 20px;
+              i {
+                font-size: 20px;
+                padding: 10px;
+                border-radius: 50%;
+                &.fa-facebook {
+                  border: 1px solid blue;
+                  color: blue;
+                }
+                &.fa-twitter {
+                  border: 1px solid rgb(0, 162, 255);
+                  color: rgb(0, 162, 255);
+                }
+                &.fa-pinterest {
+                  border: 1px solid red;
+                  color: red;
+                }
+                &.fa-linkedin {
+                  border: 1px solid rgb(0, 68, 255);
+                  color: rgb(0, 68, 255);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .text {
+      padding: 10px;
+      background-color: #dddbdb;
+    }
+  }
+}
+
+#ourlatestblog {
+  margin: 50px 0;
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &::after {
+        content: "";
+        border: 2px solid red;
+        display: block;
+        margin-top: 10px;
+        width: 20px;
+      }
+    }
+    p {
+      width: 70%;
+      text-align: center;
+    }
+  }
+  .blogs {
+    .blog {
+      .img-bg {
+        overflow: hidden;
+        position: relative;
+        .bg-opacity {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          opacity: 0;
+          background-color: rgba(0, 0, 0);
+          .fa-link {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: red;
+            font-size: 28px;
+            display: none;
+          }
+        }
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+        .bg-opacity {
+          opacity: 0.7;
+          .fa-link {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

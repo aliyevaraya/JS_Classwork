@@ -1,0 +1,30 @@
+footer {
+  padding: 30px;
+  background-image: url(./images/footer-bg.jpg);
+  .footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    p {
+      .fa-heart {
+        color: navy;
+      }
+      a {
+        color: navy;
+      }
+    }
+    .icons {
+      .fa-brands {
+        color: white;
+        background-color: black;
+        padding: 10px;
+      }
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .footer{
+    flex-direction: column;
+    align-items: center;
+    }
+  }
+}

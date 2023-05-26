@@ -1,0 +1,37 @@
+header {
+  background-color: rgba(black, 0.4);
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+ 
+    ul {
+      display: flex;
+      gap: 20px;
+      li {
+        a {
+          color: white;
+        }
+      }
+    }
+    .fa-bars {
+      display: none;
+    }
+  }
+  @media only screen and (max-width:991px) {
+    nav {
+      ul {
+        display: none;
+      }
+      .fa-bars {
+        display: block;
+        color: white;
+      }
+    }
+  }
+}

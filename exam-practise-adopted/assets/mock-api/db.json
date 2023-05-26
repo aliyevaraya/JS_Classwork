@@ -1,0 +1,36 @@
+{
+  "children": [
+    {
+      "id": 3,
+      "name": "Mark",
+      "age": "11",
+      "photo": "./assets/images/children_3.jpg"
+    },
+    {
+      "photo": "./assets/images/children_1.jpg",
+      "name": "Raphael Gilbert",
+      "age": "8",
+      "id": 4
+    },
+    {
+      "photo": "./assets/images/children_2.jpg",
+      "name": "Norman Fowler",
+      "age": "17",
+      "id": 5
+    }
+  ],
+  "favs": [
+    {
+      "photo": "./assets/images/children_1.jpg",
+      "name": "Raphael Gilbert",
+      "age": "8",
+      "id": 4
+    },
+    {
+      "photo": "./assets/images/children_2.jpg",
+      "name": "Norman Fowler",
+      "age": "17",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+header nav ul li a {
+  color: white;
+}
+header nav .fa-bars {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  header nav ul {
+    display: none;
+  }
+  header nav .fa-bars {
+    display: block;
+    color: white;
+  }
+}
+
+footer {
+  background-color: black;
+  padding: 25px 0;
+}
+footer .footer {
+  text-align: center;
+}
+footer .footer p {
+  color: white;
+}
+
+#hero-banner .slide .items .carousel-caption {
+  top: 35% !important;
+}
+#hero-banner .slide .items .linkbtn {
+  color: white;
+  padding: 15px 20px;
+}
+#hero-banner .slide .items .linkbtn:hover {
+  background-color: rgb(211, 58, 58);
+}
+
+#aboutbizpro {
+  margin: 60px 0;
+  padding: 30px 0;
+}
+#aboutbizpro .about .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#aboutbizpro .about .title h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#aboutbizpro .about .title h2::after {
+  content: "";
+  border: 2px solid red;
+  display: block;
+  margin-top: 10px;
+  width: 20px;
+}
+#aboutbizpro .about .title p {
+  width: 70%;
+  text-align: center;
+}
+#aboutbizpro .about .search-sort {
+  display: flex;
+  justify-content: space-between;
+}
+#aboutbizpro .about .search-sort #search {
+  padding: 5px 20px;
+  border-radius: 8px;
+}
+#aboutbizpro .about .content {
+  padding: 10px;
+}
+#aboutbizpro .about .content .img-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#aboutbizpro .about .content .img-col:hover img {
+  background-color: rgb(211, 58, 58);
+}
+#aboutbizpro .about .content .img-col:hover h4 {
+  color: rgb(211, 58, 58);
+}
+#aboutbizpro .about .content .img-col:hover .btn:hover.favBtn {
+  background-color: yellow;
+}
+#aboutbizpro .about .content .img-col:hover .btn:hover.delBtn {
+  background-color: gray;
+}
+#aboutbizpro .about .content .img-col:hover .btn:hover.detailBtn {
+  background-color: red;
+}
+#aboutbizpro .about .content .img-col:hover .btn:hover.editBtn {
+  background-color: green;
+}
+#aboutbizpro .about .content .img-col img {
+  margin-bottom: 15px;
+  padding: 25px;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+#aboutbizpro .about .content .img-col p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#meetourteam {
+  margin: 60px 0;
+  padding: 30px 0;
+}
+#meetourteam .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#meetourteam .title h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#meetourteam .title h2::after {
+  content: "";
+  border: 2px solid red;
+  display: block;
+  margin-top: 10px;
+  width: 20px;
+}
+#meetourteam .title p {
+  width: 70%;
+  text-align: center;
+}
+#meetourteam .row .person .img-bg {
+  position: relative;
+  overflow: hidden;
+}
+#meetourteam .row .person .img-bg .bg-opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(159, 158, 158, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#meetourteam .row .person .img-bg .bg-opacity .content {
+  display: none;
+  padding: 10px 5px;
+  text-align: center;
+  color: rgb(101, 100, 100);
+}
+#meetourteam .row .person .img-bg .bg-opacity .content h2 {
+  border: 1px solid red;
+  display: inline-block;
+  padding: 5px 10px;
+}
+#meetourteam .row .person .icons {
+  display: none;
+}
+#meetourteam .row .person:hover .bg-opacity {
+  background-color: rgba(201, 197, 197, 0.8);
+}
+#meetourteam .row .person:hover .bg-opacity .content {
+  display: block;
+}
+#meetourteam .row .person:hover .text .text-infor {
+  display: none;
+}
+#meetourteam .row .person:hover .text .icons {
+  display: block;
+  padding: 8.5px 0;
+}
+#meetourteam .row .person:hover .text .icons.hover-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#meetourteam .row .person:hover .text .icons.hover-icons i {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+#meetourteam .row .person:hover .text .icons.hover-icons i.fa-facebook {
+  border: 1px solid blue;
+  color: blue;
+}
+#meetourteam .row .person:hover .text .icons.hover-icons i.fa-twitter {
+  border: 1px solid rgb(0, 162, 255);
+  color: rgb(0, 162, 255);
+}
+#meetourteam .row .person:hover .text .icons.hover-icons i.fa-pinterest {
+  border: 1px solid red;
+  color: red;
+}
+#meetourteam .row .person:hover .text .icons.hover-icons i.fa-linkedin {
+  border: 1px solid rgb(0, 68, 255);
+  color: rgb(0, 68, 255);
+}
+#meetourteam .row .text {
+  padding: 10px;
+  background-color: #dddbdb;
+}
+
+#ourlatestblog {
+  margin: 50px 0;
+}
+#ourlatestblog .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#ourlatestblog .title h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#ourlatestblog .title h2::after {
+  content: "";
+  border: 2px solid red;
+  display: block;
+  margin-top: 10px;
+  width: 20px;
+}
+#ourlatestblog .title p {
+  width: 70%;
+  text-align: center;
+}
+#ourlatestblog .blogs .blog .img-bg {
+  overflow: hidden;
+  position: relative;
+}
+#ourlatestblog .blogs .blog .img-bg .bg-opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  background-color: rgb(0, 0, 0);
+}
+#ourlatestblog .blogs .blog .img-bg .bg-opacity .fa-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 28px;
+  display: none;
+}
+#ourlatestblog .blogs .blog:hover img {
+  transform: scale(1.1);
+}
+#ourlatestblog .blogs .blog:hover .bg-opacity {
+  opacity: 0.7;
+}
+#ourlatestblog .blogs .blog:hover .bg-opacity .fa-link {
+  display: block;
+}
+
+.add-sec {
+  margin-top: 100px;
+}
+
+.fav-sec {
+  margin-top: 100px;
+}/*# sourceMappingURL=main.css.map */

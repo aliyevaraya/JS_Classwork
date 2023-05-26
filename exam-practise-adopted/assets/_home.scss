@@ -1,0 +1,197 @@
+.hero-banner {
+  #hero-banner {
+    .slide {
+      .slide-item {
+        position: relative;
+        .text {
+          position: absolute;
+          top: 45%;
+          p {
+            width: 40%;
+          }
+          .slide-btn {
+            background-color: rgb(188, 81, 72);
+            color: white;
+            padding: 10px 20px;
+            outline: none;
+            &:hover {
+              background-color: rgb(188, 81, 72, 0.6);
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    #hero-banner {
+      .slide {
+        .slide-item {
+          .text {
+            top: 35%;
+            p {
+              width: 70%;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    #hero-banner {
+      .slide {
+        .slide-item {
+          .text {
+            top: 25%;
+            p {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    #hero-banner {
+      .slide {
+        .slide-item {
+          .text {
+            top: 10%;
+            h4 {
+              font-size: 20px;
+            }
+            p {
+              line-height: 18px;
+            }
+            .slide-btn {
+              padding: 5px 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#steps-adopt {
+  padding: 50px 0;
+  .steps-adopt {
+    display: flex;
+    .adopt-img {
+      img {
+        width: 90%;
+      }
+      p {
+        line-height: 30px;
+        width: 90%;
+      }
+      .adopt-btn {
+        border: 2px solid rgb(188, 81, 72);
+        color: rgb(188, 81, 72);
+        padding: 10px 20px;
+        &:hover {
+          background-color: rgb(188, 81, 72);
+          color: white;
+        }
+      }
+    }
+    .adopt-text {
+      h1 {
+        font-weight: lighter;
+      }
+      .items {
+        border: 1px solid rgb(200, 200, 200);
+      }
+    }
+  }
+}
+
+#waiting-children {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  .waiting-children {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      width: 50%;
+      text-align: center;
+    }
+    .findbtn {
+      background-color: rgb(188, 81, 72);
+      color: white;
+      padding: 10px 20px;
+      &:hover {
+        background-color: rgb(188, 81, 72, 0.8);
+      }
+    }
+    .child-card {
+      overflow: hidden;
+      padding: 0;
+      &:hover {
+        box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2);
+        .card-img {
+          transform: scale(1.05);
+        }
+      }
+      .card-img {
+        transition: all 0.5s ease;
+      }
+    }
+  }
+}
+
+.featured {
+  padding: 60px 0;
+  margin-bottom: 50px;
+  .stories {
+    div {
+      .img-col {
+        position: relative;
+        overflow: hidden;
+        padding: 0;
+        .bg-shadow {
+          display: none;
+          i {
+            font-size: 36px;
+            color: white;
+          }
+        }
+        img {
+          width: 100%;
+          transition: all 1s ease;
+        }
+        &:hover {
+          .bg-shadow {
+            display: block;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 1;
+            &.bg-plus {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+          .hover-text {
+            text-align: center;
+            display: block;
+            color: white;
+            z-index: 2;
+          }
+          img {
+            transform: scale(1.1);
+          }
+        }
+
+        .hover-text {
+          position: absolute;
+          bottom: 10%;
+          left: 10%;
+          display: none;
+        }
+      }
+    }
+  }
+}

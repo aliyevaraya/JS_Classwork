@@ -1,0 +1,227 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  transition: all 0.7s;
+}
+header .header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+header .header nav .nav-ul {
+  display: flex;
+  gap: 20px;
+}
+header .header nav .nav-ul li a {
+  color: white;
+}
+header .header nav .fa-bars {
+  display: none;
+}
+@media only screen and (max-width: 1023px) {
+  header .header nav .nav-ul {
+    display: none;
+  }
+  header .header nav .fa-bars {
+    display: block;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+footer {
+  padding: 30px;
+  background-image: url(./images/footer-bg.jpg);
+}
+footer .footer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer p .fa-heart {
+  color: navy;
+}
+footer .footer p a {
+  color: navy;
+}
+footer .footer .icons .fa-brands {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+@media only screen and (max-width: 991px) {
+  footer .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+#hero-banner {
+  background-image: url(./images/banner-bg.jpg);
+}
+#hero-banner .hero-banner {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero-banner .hero-banner .hero-banner-text {
+  color: white;
+}
+#hero-banner .hero-banner .hero-banner-text h1 {
+  font-size: 58px;
+}
+#hero-banner .hero-banner .hero-banner-text .detail-btn {
+  padding: 10px 20px;
+}
+#hero-banner .hero-banner .hero-banner-text .detail-btn:hover {
+  background-color: #8991fe;
+}
+#hero-banner .hero-banner .hero-banner-img img {
+  width: 100%;
+}
+@media only screen and (max-width: 1024px) {
+  #hero-banner .hero-banner .hero-banner-text h1 {
+    font-size: 40px;
+  }
+}
+
+#robotics-products {
+  margin: 60px 0;
+}
+#robotics-products .robotics-products .robotics-products-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#robotics-products .robotics-products .search-sort {
+  display: flex;
+  justify-content: space-between;
+}
+#robotics-products .robotics-products .search-sort input {
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+#robotics-products .robotics-products .robotics-products-infor {
+  text-align: center;
+}
+#robotics-products .robotics-products .robotics-products-infor .products {
+  box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
+}
+#robotics-products .robotics-products .robotics-products-infor .products .robotics-products-infor-img {
+  border-bottom: 1px solid #ede9e9;
+  padding: 40px;
+}
+#robotics-products .robotics-products .robotics-products-infor .products .robotics-products-infor-content {
+  background-color: rgb(233, 240, 243);
+  padding: 20px 0;
+}
+#robotics-products .robotics-products .robotics-products-infor:hover .btn {
+  background-image: linear-gradient(90deg, rgb(137, 143, 255), rgb(203, 149, 255));
+}
+#robotics-products .robotics-products .load:hover {
+  background-image: linear-gradient(90deg, rgb(137, 143, 255), rgb(203, 149, 255));
+}
+@media only screen and (max-width: 576px) {
+  #robotics-products .robotics-products .search-sort {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+  }
+}
+
+#features {
+  background-image: url(./images/feature-bg.jpg);
+  padding: 60px 0;
+}
+#features .features .features-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#features .features .features-contents .features-content {
+  background-color: white;
+  padding: 35px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+#features .features .features-contents .features-content .features-content-title {
+  display: flex;
+  gap: 10px;
+}
+#features .features .features-contents .features-content .features-content-title i {
+  color: black;
+  font-size: 23px;
+}
+#features .features .features-contents .features-content p {
+  margin-top: 5px;
+  color: rgb(96, 96, 96);
+}
+#features .features .features-contents .features-content:hover .features-content-title {
+  color: #8991fe;
+}
+#features .features .features-contents .features-content:hover .features-content-title i {
+  color: #8991fe;
+}
+
+#news {
+  padding: 60px 0;
+}
+#news .news .news-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#news .news .news-contents .news-content img {
+  width: 100%;
+}
+#news .news .news-contents .news-content .btns {
+  margin: 10px 0;
+}
+#news .news .news-contents .news-content .btns a {
+  background-image: linear-gradient(90deg, rgb(137, 143, 255), rgb(203, 149, 255));
+  color: white;
+  border-radius: 0;
+}
+#news .news .news-contents .news-content .btns a:hover {
+  background-image: unset;
+  color: black;
+}
+#news .news .news-contents .news-content p {
+  color: grey;
+  width: 85%;
+}
+#news .news .news-contents .news-content span {
+  color: grey;
+}
+
+.add-sec {
+  margin-top: 70px;
+}
+
+#detail-sec {
+  margin-top: 90px;
+}/*# sourceMappingURL=main.css.map */

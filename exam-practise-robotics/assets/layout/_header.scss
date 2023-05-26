@@ -1,0 +1,37 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  transition: all 0.7s;
+
+  .header {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      .nav-ul {
+        display: flex;
+        gap: 20px;
+        li {
+          a {
+            color: white;
+          }
+        }
+      }
+      .fa-bars{
+        display: none;
+      }
+      @media only screen and (max-width:1023px) {
+       .nav-ul{
+          display: none;
+        }
+        .fa-bars{
+          display: block;
+          color: white;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
