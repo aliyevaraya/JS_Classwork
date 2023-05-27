@@ -85,7 +85,7 @@ sortBtn.addEventListener("change", () => {
 });
 
  async function addFav(id) {
-  const res= await axios(`${BASE_URL_2}/${id}`)
-  const obj=res.data
-  await axios(BASE_URL_2,obj)
+  const res= await axios(`${BASE_URL}/${id}`)
+  const obj= await res.data
+  await axios.post(BASE_URL_2,obj)
 }
